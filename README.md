@@ -2,6 +2,7 @@
 
 Landing page written in Next.js and Tailwind
 
+Visit [https://curtisjhu.github.io/hair-ink/](https://curtisjhu.github.io/hair-ink/)
 
 ### Getting Started
 ```
