@@ -7,7 +7,7 @@ import Quote from "../components/Quote";
 
 export default function Home() {
     return (
-        <main className="w-full">
+        <div className="w-full">
             <Header />
 
             <div className="my-72">
@@ -162,6 +162,6 @@ export default function Home() {
             </div>
 
             <Footer />
-        </main>
+        </div>
     );
 }
