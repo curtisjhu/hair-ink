@@ -9,7 +9,7 @@ type QuoteProps = {
 
 const Quote = ({ src, quote, name, profession }: QuoteProps) => {
     return (
-        <figure className="md:flex bg-slate-100 rounded-xl dark:bg-slate-800">
+        <figure className="md:flex bg-none rounded-xl dark:bg-slate-800">
             <Image
                 className="w-24 h-24 2xl:w-48 2xl:h-48 rounded-full mx-auto"
                 src={src}

@@ -58,18 +58,23 @@ export default function Home() {
             </div>
             <div className="my-20">
                 <div className="w-fit px-8 grid grid-cols-2 mx-auto items-center">
-                    <div>
-                        <div className="font-bold text-5xl">
-                            Track Your Progress
-                        </div>
-                        <div>Use our app to track metrics. </div>
-                    </div>
                     <Image
                         src="/image/app.png"
                         alt=""
                         width={400}
                         height={600}
                     />
+                    <div>
+                        <div className="font-bold text-5xl">
+                            Track Your Progress
+                        </div>
+                        <div>Use our app to track metrics. </div>
+                        <ul className="list-disc pl-10">
+                            <li>Hair loss</li>
+                            <li>Shininess</li>
+                            <li>Ability to tell the difference</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div className="my-20">
@@ -119,17 +124,17 @@ export default function Home() {
                 <div className="grid grid-cols-2 px-10 gap-10">
                     <Tile
                         src="/image/p1.jpeg"
-                        product="Deluxe Package"
+                        product="Deluxe Douche Package"
                         price={299.99}
                     />
                     <Tile
                         src="/image/p2.jpeg"
-                        product="Douche Package"
+                        product="Grand Douche Package"
                         price={199.99}
                     />
                     <Tile
                         src="/image/p3.jpeg"
-                        product="Grand Package"
+                        product="Douche Package"
                         price={99.99}
                     />
                     <Tile
