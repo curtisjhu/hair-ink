@@ -2,11 +2,4 @@
 
 Landing page written in Next.js and Tailwind
 
-Visit [https://curtisjhu.github.io/hair-ink/](https://curtisjhu.github.io/hair-ink/)
-
-### Getting Started
-```
-git clone https://github.com/curtisjhu/hair-ink.git
-cd hair-ink
-npm run build
-```
+Visit [https://hair-ink.vercel.app/](https://hair-ink.vercel.app/)
